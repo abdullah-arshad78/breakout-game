@@ -1,0 +1,12 @@
+1. Create canvas context ( which is bringing it in and calling get context);
+2. Create and draw ball
+3. Create and draw the paddle
+4. Create our bricks ( a little more complicated bcuz more items, so array within array)
+5. Draw score
+6. Add an update function to animate- the way we are going to animate is to redraw the canvas. We can do this by using requestAnimationFrame(cb)
+7. In animation, we move the paddle
+8. Keyboard event handlers to move paddle
+9. Move ball
+10. Add wall boundaries
+11. Increase the score when bricks break
+12. Lose- redraw bricks and reset score
